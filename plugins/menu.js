@@ -46,7 +46,7 @@ const defaultMenu = {
 ├◪ *STATISTIC BOT*
 │ ├❒ *Uptime: %uptime (%muptime)*
 │ ├❒ *Database: %rtotalreg of %totalreg*
-│ └❒ *© Agbot using JS*
+│ └❒ *Ag Bot using JS*
 │
 ├◪ *INFO OWNER BOT*
 │├❒ *Wa : wa.me/6289678391870*
