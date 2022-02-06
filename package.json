@@ -1,7 +1,7 @@
 {
-  "name": "wabot-aq",
+  "name": "Ag-Bot",
   "version": "2.5.1",
-  "description": "Customizable WhatsApp Bot",
+  "description": "WhatsApp Bot",
   "depecrated": false,
   "main": "index.js",
   "directories": {
@@ -22,16 +22,16 @@
     "whatsapp",
     "js-whatsapp"
   ],
-  "homepage": "https://github.com/Nurutomo/wabot-aq",
+  "homepage": "https://github.com/Ag-Gilang/bot",
   "author": {
-    "name": "Nurutomo"
+    "name": "Aryagilang"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Nurutomo/wabot-aq.git"
+    "url": "git+https://github.com/Ag-Gilang/bot.git"
   },
   "bugs": {
-    "url": "https://github.com/Nurutomo/wabot-aq/issues"
+    "url": "https://github.com/Ag-Gilang/bot/issues"
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
