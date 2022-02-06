@@ -30,27 +30,35 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-╭─「 %me 」
-│ Hai, %name!
-│
-│ Tersisa *%limit Limit*
-│ Role *%role*
-│ Level *%level (%exp / %maxexp)* [%xp4levelup lagi untuk levelup]
-│ %totalexp XP in Total
+┌◪  *「hallo, im %me 」*
+│ │ 
+│ ├❒ *Hai  : %name!*
+│ ├❒ *limit : %limit Limit*
+│ ├❒ *Role : %role*
+│ ├❒ *Level: %level (%exp / %maxexp)* 
+│ └❒ *Total Xp : %totalexp*
 │ 
-│ Tanggal: *%week %weton, %date*
-│ Tanggal Islam: *%dateIslamic*
-│ Waktu: *%time*
+├◪ *TIME ⏳*
+│ ├❒ *Hari: %week %weton*
+│ ├❒ *Tanggal : %date*
+│ └❒ *Waktu: %time*
 │
-│ Uptime: *%uptime (%muptime)*
-│ Database: %rtotalreg of %totalreg
-│ Github:
-│ %github
-╰────
+├◪ *STATISTIC BOT*
+│ ├❒ *Uptime: %uptime (%muptime)*
+│ ├❒ *Database: %rtotalreg of %totalreg*
+│ └❒ *© Agbot using JS*
+│
+├◪ *INFO OWNER BOT*
+│├❒ *Wa : wa.me/6289678391870*
+│├❒ *Ig : @gilangirfansyah_*
+│└❒ _*© Aryagilang*_
+│
+└───────────────────────
+
 %readmore`.trimStart(),
-  header: '╭─「 %category 」',
-  body: '│ • %cmd %islimit %isPremium',
-  footer: '╰────\n',
+  header: '┌──*「 ```%category``` 」*──',
+  body:  '├◪ *%cmd%islimit%isPremium*',
+  footer: '└───────────────────────',
   after: `
 *%npmname@^%version*
 ${'```%npmdesc```'}
