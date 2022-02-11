@@ -18,7 +18,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 }
 
 handler.help = ['joox'].map(v => v + ' <judul>')
-handler.tags = ['Premium']
+handler.tags = ['premium']
 handler.command = /^joox$/i
 handler.limit = true
 handler.premium = true // hapus aja kalau saya sengaja premium makan kuota termux :)
