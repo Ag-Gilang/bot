@@ -3,9 +3,9 @@ let fs = require('fs')
 let handler = async (m, { conn, usedPrefix }) => {
   conn.reply(m.chat, `*${pickRandom(hacker)}*`, m)
 }
-handler.help = ['hacker']
+handler.help = ['quoteshacker']
 handler.tags = ['quotes']
-handler.command = /^(hacker)$/i
+handler.command = /^(qhacker)$/i
 handler.owner = false
 handler.mods = false
 handler.premium = false
