@@ -31,7 +31,7 @@ ${txt}
     await conn.sendFile(m.chat, url, 'tiktok.mp4', txt.trim(), m)
 }
 handler.help = ['tiktok'].map(v => v + ' <url>')
-handler.tags = ['downloader']
+handler.tags = ['Premium']
 
 handler.command = /^(tik(tok)?(dl)?)$/i
 
