@@ -16,10 +16,10 @@ Size: ${size}
   `.trim(), m)
 }
 handler.help = ['twitter'].map(v => v + ' <url>')
-handler.tags = ['downloader']
+handler.tags = ['Premium']
 
 handler.command = /^twitter$/i
 
-handler.limit = true
+handler.limit = false
 
 module.exports = handler
