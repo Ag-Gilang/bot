@@ -30,7 +30,7 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-┌◪  *「hallo, im %me 」*
+┌◪  *「 hallo, im %me 」*
 │ │ 
 │ ├❒ *Hai  : %name!*
 │ ├❒ *limit : %limit Limit*
