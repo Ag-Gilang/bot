@@ -394,11 +394,11 @@ module.exports = {
     let chat = global.db.data.chats[m.key.remoteJid]
     if (chat.delete) return
     await this.sendButton(m.key.remoteJid, `
-*[ANTI DELETE]*
-Terdeteksi @${m.participant.split`@`[0]} telah menghapus pesan
-
-Untuk mematikan fitur ini, ketik
-*.enable delete*
+    *「 ANTI DELETE 」*
+Terdeteksi @${m.participant.split`@`[0]} Telah Menghapus Pesan!
+-❥ *Type*: ${Object.keys(m.message.message)[0]}
+-❥ *Number*: ${require('awesome-phonenumber')(`+${m.participant.split`@`[0]}`).getNumber('international')}
+-❥ *Name*: ${this.getName(m.participant)}
 `.trim(), '© Ag bot', 'Matikan', '.1 delete', m.message)
     this.copyNForward(m.key.remoteJid, m.message).catch(e => console.log(e, m))
   },
