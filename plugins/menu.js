@@ -51,7 +51,7 @@ const defaultMenu = {
 ├◪ *INFO OWNER BOT*
 │├❒ *Wa : wa.me/6289678391870*
 │├❒ *Ig : @gilangirfansyah_*
-│└❒ _*© Aryagilang*_
+│└❒ *© Aryagilang*
 │
 └───────────────────────
 
