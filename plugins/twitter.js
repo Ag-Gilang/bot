@@ -16,7 +16,7 @@ Size: ${size}
   `.trim(), m)
 }
 handler.help = ['twitter'].map(v => v + ' <url>')
-handler.tags = ['Premium']
+handler.tags = ['premium']
 
 handler.command = /^twitter$/i
 
