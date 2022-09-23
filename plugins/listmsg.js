@@ -36,7 +36,7 @@ Akses dengan:
 *${usedPrefix}get${which}* <nama>
 
 Jika Getmsg diaktifkan maka tidak perlu lagi mengetik *${usedPrefix}get${which}*
-`.trim(), '© wabot-aq', 'Aktifkan', '.1 getmsg', m)
+`.trim(), '© Ag Bot', 'Aktifkan', '.1 getmsg', m)
 }
 handler.help = ['all', 'doc', 'vn', 'msg', 'video', 'gif', 'audio', 'img', 'sticker'].map(v => 'list' + v)
 handler.tags = ['database']
